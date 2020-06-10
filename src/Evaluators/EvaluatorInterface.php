@@ -17,4 +17,8 @@ interface EvaluatorInterface {
      */
     public function evaluate(): bool;
 
+    /* Given time, I would probably work to rename the method here. I'm not a
+       fan of how the names work within the DataLoggedIncentive class.
+    */
+
 }

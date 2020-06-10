@@ -38,4 +38,5 @@ interface  RewardInterface {
      * @param int $user_id
      */
     public function setUserId(int $user_id): void;
+
 }

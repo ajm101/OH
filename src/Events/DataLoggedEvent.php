@@ -2,8 +2,6 @@
 
 namespace Ovia\Events;
 
-use Symfony\Contracts\EventDispatcher\Event;
-
 /**
  * Class DataLoggedEvent
  *

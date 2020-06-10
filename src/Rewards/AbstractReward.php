@@ -52,4 +52,5 @@ abstract class AbstractReward implements RewardInterface {
     public function setUserId(int $user_id): void {
         $this->user_id = $user_id;
     }
+
 }

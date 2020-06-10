@@ -52,6 +52,7 @@ abstract class AbstractIncentive implements IncentiveInterface {
 
     /**
      * Determine if the user is still eligible for the reward.
+     *
      * @return bool
      */
     private function eligibleForReward(): bool {

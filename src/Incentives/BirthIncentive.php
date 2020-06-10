@@ -1,6 +1,6 @@
 <?php
 
-namespace  Ovia\Incentives;
+namespace Ovia\Incentives;
 
 use Ovia\Evaluators\BirthIncentiveEvaluator;
 use Ovia\Events\BirthEvent;
@@ -39,4 +39,5 @@ class BirthIncentive extends AbstractIncentive {
     protected function evaluate(): bool {
         new BirthIncentiveEvaluator($this->event);
     }
+
 }

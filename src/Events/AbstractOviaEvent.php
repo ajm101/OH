@@ -55,4 +55,5 @@ abstract class AbstractOviaEvent extends Event implements OviaEventInterface {
     public function getDatetime(): DateTimeImmutable {
         return $this->datetime;
     }
+
 }

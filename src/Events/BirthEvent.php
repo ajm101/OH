@@ -44,4 +44,5 @@ class BirthEvent extends AbstractOviaEvent {
     public function getChildId(): int {
         return $this->child_id;
     }
+
 }
